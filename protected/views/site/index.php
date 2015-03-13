@@ -6,9 +6,9 @@ $this->pageTitle=Yii::app()->name;
 <div id="owl-demo" class="owl-carousel owl-theme">
 <!-- Content 0 -->
 	<div class="item" id="content_0">
-        <video muted="muted" preload="none" loop autoplay="autoplay" id="bgvid">
-            <source type="video/webm" src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.webm">
-            <source type="video/mp4" src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.mp4">
+        <video loop autoplay muted id="bgvid">
+            <source src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.mp4" type="video/mp4">
+            <source src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.webm" type="video/webm">
         </video>
 		<div class="header_0">
 			<div class="wrapper">
