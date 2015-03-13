@@ -1,4 +1,9 @@
 var CURRENT = 0;
+var global_owl = $("#owl-demo");
+
+function jumpTo(number){
+    global_owl.trigger('owl.goTo', number);
+}
 
 function afterAction(){
 	CURRENT = this.owl.currentItem;
@@ -7,8 +12,10 @@ function afterAction(){
 	} else if(this.owl.currentItem == 1){
 	
 	} else if(this.owl.currentItem == 2){
-	
-	}
+
+	} else if(this.owl.currentItem == 3){
+
+    }
 	initialize_positions();
 }
 
@@ -32,10 +39,9 @@ function initialize_positions(){
 }
 
 $(document).ready(function() {
-	
-	$('.item').css('height',$(window).height());
-	
-  $("#owl-demo").owlCarousel({
+  $('.item').css('height',$(window).height());
+
+    global_owl.owlCarousel({
  
       slideSpeed : 300,
       paginationSpeed : 400,

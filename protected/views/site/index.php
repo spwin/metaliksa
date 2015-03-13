@@ -83,12 +83,12 @@ $this->pageTitle=Yii::app()->name;
 			<div class="menu-line"></div>
 			<div class="left_menu_wrap">
 				<div class="left_menu_choice">
-					<h1>Pagrindinis</h1>
-					<h1 class="selected">Darbo metodika</h1>
+					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
+					<h1 onclick="jumpTo(1);" class="selected">Darbo metodika</h1>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<h1>Darbo sritys</h1>
-					<h1>Mūsų darbai</h1>
-					<h1>Kontaktai</h1>
+					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
+					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
+					<h1 onclick="jumpTo(4);">Kontaktai</h1>
 				</div>
 			</div>
 			<div class="left_menu_wrap">
@@ -155,12 +155,12 @@ $this->pageTitle=Yii::app()->name;
 			<div class="menu-line"></div>
 			<div class="left_menu_wrap">
 				<div class="left_menu_choice">
-					<h1>Pagrindinis</h1>
-					<h1 class="selected">Darbo metodika</h1>
+					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
+					<h1 onclick="jumpTo(1);" class="selected">Darbo metodika</h1>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<h1>Darbo sritys</h1>
-					<h1>Mūsų darbai</h1>
-					<h1>Kontaktai</h1>
+					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
+					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
+					<h1 onclick="jumpTo(4);">Kontaktai</h1>
 				</div>
 			</div>
 			<div class="left_menu_wrap">
@@ -194,6 +194,11 @@ $this->pageTitle=Yii::app()->name;
 
   
 	</div>
+
+<!-- Content 3 -->
+<div class="item" id="content_3">
+    this is my first test
+</div>
 </div>
 
 
