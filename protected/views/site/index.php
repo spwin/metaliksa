@@ -6,6 +6,10 @@ $this->pageTitle=Yii::app()->name;
 <div id="owl-demo" class="owl-carousel owl-theme">
 <!-- Content 0 -->
 	<div class="item" id="content_0">
+	<video id="bgvid" autoplay>
+		<source src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.mp4" type="video/mp4">
+		<source src="polina.mp4" type="video/mp4">
+	</video>
 		<div class="header_0">
 			<div class="wrapper">
 				<a href="<?php echo Yii::app()->baseUrl; ?>" title="Metaliksa">
