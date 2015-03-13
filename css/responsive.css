@@ -31,15 +31,31 @@
 	.images-wrapper,
 	.up-content {
 		margin-left: 320px;
+		width: calc(100% - 320px);
 	}
 	
 	#content_2 .left_menu{
 		position: fixed;
 	}
-	
 }
 
-
+@media screen and (max-width: 1120px) {
+	.images-line2 div:nth-of-type(n+2) {
+		margin-left: 0;
+	}
+	.images-line1 div:nth-of-type(n+2) {
+		margin-left: 0;
+	}
+	
+	.images-line1,
+	.images-line2 {
+		font-size: 13px;
+	}
+	
+	.images-line1 {
+		margin-bottom: -13%;
+	}
+}
 
 
 

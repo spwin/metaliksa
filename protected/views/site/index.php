@@ -175,9 +175,17 @@ $this->pageTitle=Yii::app()->name;
 		
 		<div class="images-wrapper">
 			<div class="images-line1">
-				<div class="image-div"><table><tr><td>Pramonės įrengimų projektavimas</td></tr></table></div>
-				<div class="image-div"><table><tr><td>Įrenginių projektavimas</td></tr></table></div>
-				<div class="image-div"><table><tr><td>Įtaisų projektavimas</td></tr></table></div>
+				<div class="image-div image1"><table><tr><td>Pramonės įrengimų projektavimas</td></tr></table></div>
+				<div class="image-div image2"><table><tr><td>Įrenginių projektavimas</td></tr></table></div>
+				<div class="image-div image3"><table><tr><td>Įtaisų projektavimas</td></tr></table></div>
+			</div>
+			
+			<div class="images-line2">
+				<div class="image-div1 image4"><table><tr><td>Intralogistikos projektavimas</td></tr></table></div>
+				<div class="image-div1 image5"><table><tr><td>Individualių manipuliatorių projektavimas</td></tr></table></div>
+				<div class="image-div1 image6"><table><tr><td>Įrenginių modernizavimas</td></tr></table></div>
+				<div class="image-div1 image7"><table><tr><td>Atkartojame ir kopijuojame detales</td></tr></table></div>
+			
 			</div>
 		</div>
   

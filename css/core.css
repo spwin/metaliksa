@@ -598,7 +598,6 @@ top: 47%;
  .images-wrapper {
 	width: 73.96%;
 	height: 59.79%;
-	background-color: rgba(0,0,0,0.5);
 	position: relative;
 	display: inline-block;
  }
@@ -606,32 +605,95 @@ top: 47%;
 .images-line1 {
 	width: 60.46%;/*858.532*/
 	height: 46.9%;/*272px;*/
-	background-color: yellow;
 	margin: 0 auto;
+	margin-bottom: -5%;
 }
 
 .image-div {
 	width: 31.68%;
 	height: 100%;
-	background: url('../images/content_2/b1_darbo_srytis.png') no-repeat center center;
-	background-size: contain;
 	color: white;
 	display: inline-block;
 	text-align: center;
 }
 
+.image1 {
+	background: url('../images/content_2/b1_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}
+
+.image2 {
+	background: url('../images/content_2/b2_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+	}
+
+.image3 {
+	background: url('../images/content_2/b3_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+	}
+
 .image-div table {
 	height: 100%;
+	width: 100%;
 }
 
 .image-div td {
 	vertical-align: middle;
+	text-align: center;
+}
+
+.images-line1 div:nth-of-type(n+2) {
+	margin-left: 1.5%;
+}
+
+.images-line2 {
+	width: 81.46%;/*1156.732*/
+	height: 46.9%;/*272px;*/
+	margin: 0 auto;
+}
+
+.image-div1 {
+	width: 23.77%;
+	height: 100%;
+	color: white;
+	display: inline-block;
+	text-align: center;
+}
+
+.image-div1 td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.image-div1 table {
+	height: 100%;
+	width: 100%;
 }
 
 
+.image4 {
+	background: url('../images/content_2/b4_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}
 
+.image5 {
+	background: url('../images/content_2/b5_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+	}
 
+.image6 {
+	background: url('../images/content_2/b6_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+	}
+	
+.image7 {
+	background: url('../images/content_2/b7_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}
 
+.images-line2 div:nth-of-type(n+2) {
+	margin-left: 1%;
+}
 
 
 
