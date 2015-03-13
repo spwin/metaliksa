@@ -15,6 +15,8 @@ function afterAction(){
 
 	} else if(this.owl.currentItem == 3){
 
+    } else if(this.owl.currentItem == 4){
+
     }
 	initialize_positions();
 }

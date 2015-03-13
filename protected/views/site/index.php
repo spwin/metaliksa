@@ -6,6 +6,10 @@ $this->pageTitle=Yii::app()->name;
 <div id="owl-demo" class="owl-carousel owl-theme">
 <!-- Content 0 -->
 	<div class="item" id="content_0">
+        <video muted="muted" preload="none" loop autoplay="autoplay" id="bgvid">
+            <source type="video/webm" src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.webm">
+            <source type="video/mp4" src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.mp4">
+        </video>
 		<div class="header_0">
 			<div class="wrapper">
 				<a href="<?php echo Yii::app()->baseUrl; ?>" title="Metaliksa">
@@ -28,7 +32,7 @@ $this->pageTitle=Yii::app()->name;
 		<div class="main_title_bg">
 			<div class="main_title_text"><?php echo CHtml::image('images/content_0/Griauname-atgyvenusius-ir-nusistovejusius-principus.png', 'Griauname atgyvenusius ir nusistovejusius principus'); ?></div>
 		</div>
-		<div class="down_button_0">
+		<div class="down_button_0" onclick="jumpTo(1);">
 			<?php echo CHtml::image('images/content_0/arrows_down_1.png', 'Continue'); ?>
 		</div>
 		<div class="footer_0">
@@ -197,7 +201,12 @@ $this->pageTitle=Yii::app()->name;
 
 <!-- Content 3 -->
 <div class="item" id="content_3">
-    this is my first test
+    Darbai
+</div>
+
+<!-- Content 4 -->
+<div class="item" id="content_4">
+    Kontaktai
 </div>
 </div>
 
