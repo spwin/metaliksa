@@ -170,7 +170,7 @@ $this->pageTitle=Yii::app()->name;
 			</div>
 		</div>
 		<div class="up-content">
-			
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/JAH_Pan.png">
 		</div>
 		
 		<div class="images-wrapper">

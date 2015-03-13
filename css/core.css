@@ -592,9 +592,9 @@ top: 47%;
 .up-content {
 	width: 73.96%;
 	height: 40.21%;
-	background-color: rgba(0,0,0,0.9);
 	position: relative;
 	display: inline-block;
+	text-align: center;
 }
 
 
@@ -611,7 +611,7 @@ top: 47%;
 	width: 60.46%;/*858.532*/
 	height: 46.9%;/*272px;*/
 	margin: 0 auto;
-	margin-bottom: -5%;
+	margin-bottom: -1%;
 }
 
 .image-div {
@@ -620,6 +620,7 @@ top: 47%;
 	color: white;
 	display: inline-block;
 	text-align: center;
+	transition: 0.3s;
 }
 
 .image1 {
@@ -645,6 +646,7 @@ top: 47%;
 .image-div td {
 	vertical-align: middle;
 	text-align: center;
+	font-size: 19px;
 }
 
 .images-line1 div:nth-of-type(n+2) {
@@ -663,11 +665,13 @@ top: 47%;
 	color: white;
 	display: inline-block;
 	text-align: center;
+	transition: 0.3s;
 }
 
 .image-div1 td {
 	vertical-align: middle;
 	text-align: center;
+	font-size: 19px;
 }
 
 .image-div1 table {
@@ -699,6 +703,48 @@ top: 47%;
 .images-line2 div:nth-of-type(n+2) {
 	margin-left: 1%;
 }
+
+.image1:hover {
+	background: url('../images/content_2/1_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}
+.image2:hover {
+	background: url('../images/content_2/2_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}.image3:hover {
+	background: url('../images/content_2/3_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}.image4:hover {
+	background: url('../images/content_2/4_darbo_srytis..png') no-repeat center center;
+	background-size: contain;
+}.image5:hover {
+	background: url('../images/content_2/5_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}.image6:hover {
+	background: url('../images/content_2/6_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}.image7:hover {
+	background: url('../images/content_2/7_darbo_srytis.png') no-repeat center center;
+	background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
