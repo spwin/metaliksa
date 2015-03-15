@@ -45,6 +45,7 @@ video#bgvid {
 /********************************
 						Content 0
 ********************************/
+
 #content_0{
 	background: url(../images/content_0/background_1.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -946,17 +947,21 @@ KONTAKTAI
 }
 
 .send-button {
-	width: 53.41%;
+	width: 34.41%;
 	height: 18.97%;
-	background: url("../images/content_4/send.jpg") no-repeat;
 	color: white;
 	display: inline-block;
 	float: right;
+	margin-top: 2%;
 }
 
+.send-button span {
+	margin-left: 1%;
+}
 
-
-
+.send-button:hover {
+	color: rgb(201, 148, 5);
+}
 
 
 

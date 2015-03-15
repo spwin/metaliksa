@@ -15,6 +15,11 @@ $this->pageTitle=Yii::app()->name;
         <video muted="muted" preload="none" loop autoplay="autoplay" id="bgvid">
             <source type="video/webm" src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.webm">
             <source type="video/mp4" src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.mp4">
+=======
+        <video loop autoplay muted id="bgvid">
+            <source src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.mp4" type="video/mp4">
+            <source src="<?php echo Yii::app()->baseUrl; ?>/images/content_0/electric_bulb_hd_stock_video.webm" type="video/webm">
+>>>>>>> ea1d572a9da29b43af3b1de15b01fa04c7a2c1cb
         </video>
 --->
 		<div class="header_0">
@@ -338,7 +343,7 @@ $this->pageTitle=Yii::app()->name;
 						<input type="text" placeholder="Tema" class="mb20">
 						<label for="textarea">Žinutė</label>
 						<textarea id="textarea"></textarea>
-						<div class="send-button">Siųsti žinutę</div>
+						<a href="#"><div class="send-button"><img src="images/content_4/send-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_4/send-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_4/send-icon.png';"><span>Siųsti žinutę</span></div></a>
 					</form>
 				</div>
 			</div>

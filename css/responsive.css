@@ -74,10 +74,14 @@
 	}
 }
 
-
-
-
-
+@media screen and (max-width: 1430px) {
+	.send-button span {
+		display: none;
+	}
+	.send-button {
+		width: 13%;
+	}
+}
 
 
 
