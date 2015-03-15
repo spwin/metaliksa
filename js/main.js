@@ -197,6 +197,28 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	});
 
 
+$( ".image-div, .image-div1" ).click(function() {
+  $( ".fadeMe, .content-2-popup" ).toggle();
+});
+	
+$( ".fadeMe" ).click(function() {
+  $( ".fadeMe, .content-2-popup" ).toggle();
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 

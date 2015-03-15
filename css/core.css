@@ -629,6 +629,7 @@ top: 47%;
 	display: inline-block;
 	text-align: center;
 	transition: 0.3s;
+	cursor: pointer;
 }
 
 .image1 {
@@ -674,6 +675,7 @@ top: 47%;
 	display: inline-block;
 	text-align: center;
 	transition: 0.3s;
+	cursor: pointer;
 }
 
 .image-div1 td {
@@ -904,17 +906,21 @@ KONTAKTAI
 
 ::-webkit-input-placeholder {
     color:    white;
+	font-size: 0.8vw;
 }
 :-moz-placeholder {
    color:    white;
    opacity:  1;
+   	font-size: 0.8vw;
 }
 ::-moz-placeholder {
    color:    white;
    opacity:  1;
+   	font-size: 0.8vw;
 }
 :-ms-input-placeholder {
    color:    white;
+   	font-size: 0.8vw;
 }
 
 .mb20 {
@@ -930,6 +936,7 @@ KONTAKTAI
 	font-size: 13px;
 	color: white;
 	margin-left: 5px;
+   	font-size: 0.8vw;
 }
 
 .form textarea {
@@ -962,6 +969,63 @@ KONTAKTAI
 .send-button:hover {
 	color: rgb(201, 148, 5);
 }
+
+/* popup 1220 490*/
+
+div.fadeMe {
+opacity: 0.5;
+background: #000;
+width: 100%;
+height: 100%;
+z-index: 10;
+top: 0;
+left: 0;
+position: fixed;
+cursor: pointer;
+}
+
+.content-2-popup {
+width: 63.54%;
+height: 51.52%;
+margin: auto;
+z-index: 1002;
+position: absolute;
+overflow: auto;
+top: 24%;
+left: 0;
+right: 0;
+background-color: white;
+}
+
+.popup-image-wrap {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.popup-image-wrap img {
+	width: 100%;
+	height: auto;
+}
+
+.popup-text-wrap {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.popup-text {
+	width: 85%;
+	height: auto;
+	display: inline-block;
+	top: 27%;
+	position: relative;
+	margin-left: 10%;
+}
+
+
+
+
 
 
 

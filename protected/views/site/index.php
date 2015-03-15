@@ -204,8 +204,19 @@ $this->pageTitle=Yii::app()->name;
 			
 			</div>
 		</div>
-  
-  
+		<div class="fadeMe" style="display: none;"></div>
+		<div class="content-2-popup" style="display: none;">
+			<div class="popup-image-wrap">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-image.jpg">
+			</div>
+			<div class="popup-text-wrap">
+				<div class="popup-text">
+					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
+					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
+				</div>
+			</div>
+		
+		</div>
   
 
   
