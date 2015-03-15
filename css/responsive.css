@@ -57,11 +57,22 @@
 	}
 }
 
+@media screen and (max-width: 1230px) {
+	.content-wrap {
+		margin-left: 320px;
+		width: calc(100% - 320px);
+	}
+	
+	#content_4 .left_menu{
+		position: fixed;
+	}
+}
 
-
-
-
-
+@media screen and (max-height: 800px) {
+	.menu-bottom {
+		display: none;
+	}
+}
 
 
 

@@ -15,6 +15,8 @@ function afterAction(){
 
 	} else if(this.owl.currentItem == 3){
 
+    } else if(this.owl.currentItem == 4){
+
     }
 	initialize_positions();
 }
@@ -152,9 +154,47 @@ window.onload = function() {
 	initialize_positions();
 };
 
+//google maps in contacts
 
 
+		 function initialize() {
+	  var mapCanvas = document.getElementById('map-canvas');
+	  var myLatlng = new google.maps.LatLng(54.645411, 25.199383);
+	  var mapOptions = {
+      center: new google.maps.LatLng(54.645411, 25.199383),
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+	 var map = new google.maps.Map(mapCanvas,mapOptions);
+	 var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!"
+	});
+		marker.setMap(map);
+	 google.maps.event.addDomListener(window, 'load', initialize); 
+ }
+google.maps.event.addDomListener(window, 'load', initialize);
 
+//change text on hover
+
+  $(document).ready(function () {
+		$(".img-responsive-01").mouseover(function () {
+				$(".bottom-number").text("01");
+				$(".bottom-text").text("Gavę techninę užduotį ir reikalingą informaciją iš kliento – ją analizuojame. Pasitelkdami vizualizaciją, pateikiame tik patį geriausią sprendimą aiškioje ir kiekvienam suprantamoje formoje. Gavę užtikrintą kliento pritarimą ir supratimą, pateikiame pilną techninį pasiūlymą.");
+		});
+		$(".img-responsive-02").mouseover(function () {
+				$(".bottom-number").text("02");
+				$(".bottom-text").text("Įveikus idėjų generavimo etapą, pradedame 3D modeliavimo darbus. Tai leidžia darbus atlikti greičiau, tiksliau, patikimiau. Darbų eigoje glaudžiai bendraujame su klientu ir tiekėjais, deriname iškilusias problemas ir įsitikinę, kad klientas yra patenkintas sprendimu - pateikiame galutinį projekto variantą.");
+		});
+		$(".img-responsive-03").mouseover(function () {
+				$(".bottom-number").text("03");
+				$(".bottom-text").text("Šiame projekto rengimo etape, ruošiame detalizuotus darbinius ir surinkimo brėžinius skirtus gamybai ir surinkimui. Priklausomai nuo projekto, rengiamos techninės, aptarnavimo, instruktavimo dokumentacijos. Visą informaciją pateikiame klientui patogiais formatais.");
+		});
+		$(".img-responsive-04").mouseover(function () {
+				$(".bottom-number").text("04");
+				$(".bottom-text").text("Tik projekto autorius geriausiai žino savo kūrinio gamybos subtilybes. Todėl siūlome gamybą patikėti mums. Esame sukūrę glaudžius santykius su gamintojais ir tiekėjais, kurie laikosi mūsų užduotų techninių reikalavimų, taip užtikriname, kad gamybos sąnaudos atitiks kainos ir kokybės santykį.");
+		});
+	});
 
 
 

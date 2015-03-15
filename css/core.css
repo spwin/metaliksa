@@ -34,11 +34,19 @@ body{
 	max-width: 1330px;
 	margin: 0 auto;
 }
+
+video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(../images/content_0/background_1.jpg) no-repeat;
+    background-size: cover;
+}
 /********************************
 						Content 0
 ********************************/
 #content_0{
-	background: url(../images/content_0/background_1.jpg) no-repeat center center; 
+	background: url(../images/content_0/background_1.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -114,6 +122,9 @@ body{
 	bottom: 257px;
 	width: 100%;
 	text-align: center;
+}
+.down_button_0 img{
+    cursor: pointer;
 }
 .footer_0{
 	position: absolute;
@@ -272,6 +283,7 @@ ul.menu-list {
 
 .left_menu_choice h1 {
     font-family: 'Open Sans Bold';
+	font-size: 1.8vw;
 }
 
 .left_menu_choice h1:nth-child(1) {
@@ -462,14 +474,12 @@ top: 47%;
 	color: white;
 	display: inline-block;
 	width: 70%;
-	font-size: 1.3vw;
+	font-size: 1vw;
 }
 
 .clearer {
 	clear: both;
 }
-
-
 
 
 
@@ -578,9 +588,6 @@ top: 47%;
 	margin-top: 0;
 }
 
-#content_2 .selected {
-	color: rgb(46,46,46);
-}
 
 #content_2 .menu-bottom {
 	width: 100%;
@@ -728,6 +735,11 @@ top: 47%;
 	background-size: contain;
 }
 
+h1.selected {
+	color: #FFBB00;
+}
+
+/*
 video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
@@ -735,20 +747,212 @@ width: auto; height: auto; z-index: -100;
 background: url(polina.jpg) no-repeat;
 background-size: cover;
 }
+*/
+
+/*******************************
+MUSU DARBAI
+********************************/
+
+#content_3 {
+	background: url(../images/content_3/background-4.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	height: 100%;
+}
 
 
 
 
 
 
+/*************************
+KONTAKTAI
+*******************************/
 
 
 
 
+#content_4{
+	background: url(../images/content_4/background-5.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#kontaktai {
+	background-color: rgba(0,0,0,0.4);
+}
+
+#first-image span {
+	font-size: 10px;
+}
+
+.content-wrap {
+	width: 73.96% ;
+	height: 100%;
+	display: inline-block;
+}
 
 
+/*1220 485*/
+.contacts-info {
+	width: 85.92%;
+	height: 50%;
+	margin: 0 auto;
+	position: relative;
+}
 
+/*300 350*/
+.contact {
+	width: 23.13%;
+	height: 72.16%;
+	display: inline-block;
+	float: left;
+	color: white;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 0.95vw;
+}
 
+.contact img {
+	width: 69.23%;
+	height: auto;
+	display: block;
+	margin: 6% auto;
+}
+
+.contact:nth-child(n+2) {
+	margin-left: 15%;
+}
+
+.block {
+	display: block;
+}
+
+.map-form {
+	width: 85.92%;
+	height: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.map {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.form-wrap {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+#map-canvas {
+	width: 75%;
+	height: 47.42%;
+	display: block;
+}
+
+.map-info {
+	width: 75%;
+	height: 47.42%;
+	color: white;
+}
+
+.map-info h1 {
+	font-family: 'Open Sans Bold';
+	font-size: 1.3vw;
+}
+
+.map-info p {
+	margin: 0;
+	font-size: 1vw;
+}
+
+.form h1 {
+	font-family: 'Open Sans Bold';
+	font-size: 1.1vw;
+	margin-top: 0;
+	color: white;
+}
+
+.form {
+	width: 72.13%;
+	height: 100%;
+	float: right;
+}
+
+.form input {
+	width: 100%;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #d1d2d3;
+	color: white;
+	padding-left: 5px;
+	outline: none;
+	font-family: 'Open Sans';
+}
+
+::-webkit-input-placeholder {
+    color:    white;
+}
+:-moz-placeholder {
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder {
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:    white;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.form input:nth-child(n+2) {
+	margin-top: 15px;
+}
+
+.form label {
+	margin-top: 20px;
+	font-size: 13px;
+	color: white;
+	margin-left: 5px;
+}
+
+.form textarea {
+	width: 100%;
+	height: 140px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #d1d2d3;
+	border-top: 1px solid #d1d2d3;
+	color: white;
+	padding-left: 5px;
+	outline: none;
+	font-family: 'Open Sans';
+	resize: none;
+}
+
+.send-button {
+	width: 53.41%;
+	height: 18.97%;
+	background: url("../images/content_4/send.jpg") no-repeat;
+	color: white;
+	display: inline-block;
+	float: right;
+}
 
 
 
