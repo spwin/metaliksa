@@ -197,16 +197,38 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	});
 
 
-$( ".image-div, .image-div1" ).click(function() {
-  $( ".fadeMe, .content-2-popup" ).toggle();
+$( ".image1" ).click(function() {
+  $( ".fadeMe, .content-2-popup1" ).toggle();
 });
-	
+$( ".image2" ).click(function() {
+  $( ".fadeMe, .content-2-popup2" ).toggle();
+});
+$( ".image3" ).click(function() {
+  $( ".fadeMe, .content-2-popup3" ).toggle();
+});
+
+$( ".image4" ).click(function() {
+  $( ".fadeMe, .content-2-popup4" ).toggle();
+});
+
+$( ".image5" ).click(function() {
+  $( ".fadeMe, .content-2-popup5" ).toggle();
+});
+
+$( ".image6" ).click(function() {
+  $( ".fadeMe, .content-2-popup6" ).toggle();
+});
+
+$( ".image7" ).click(function() {
+  $( ".fadeMe, .content-2-popup7" ).toggle();
+});
+
+
 $( ".fadeMe" ).click(function() {
-  $( ".fadeMe, .content-2-popup" ).toggle();
+  $( ".fadeMe, .content-2-popup" ).hide();
 });
-	
-	
-	
+
+
 	
 	
 	

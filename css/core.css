@@ -906,21 +906,21 @@ KONTAKTAI
 
 ::-webkit-input-placeholder {
     color:    white;
-	font-size: 0.8vw;
+	font-size: 15px;
 }
 :-moz-placeholder {
    color:    white;
    opacity:  1;
-   	font-size: 0.8vw;
+   	font-size: 15px;
 }
 ::-moz-placeholder {
    color:    white;
    opacity:  1;
-   	font-size: 0.8vw;
+   	font-size: 15px;
 }
 :-ms-input-placeholder {
    color:    white;
-   	font-size: 0.8vw;
+   	font-size: 15px;
 }
 
 .mb20 {
@@ -936,7 +936,7 @@ KONTAKTAI
 	font-size: 13px;
 	color: white;
 	margin-left: 5px;
-   	font-size: 0.8vw;
+   	font-size: 15px;
 }
 
 .form textarea {
@@ -986,7 +986,6 @@ cursor: pointer;
 
 .content-2-popup {
 width: 63.54%;
-height: 51.52%;
 margin: auto;
 z-index: 1002;
 position: absolute;
