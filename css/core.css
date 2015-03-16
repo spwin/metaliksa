@@ -963,7 +963,8 @@ KONTAKTAI
 }
 
 .send-button span {
-	margin-left: 1%;
+	margin-left: 10px;
+	position: fixed;
 }
 
 .send-button:hover {
@@ -1020,9 +1021,12 @@ background-color: white;
 	top: 27%;
 	position: relative;
 	margin-left: 10%;
+	margin-top: 25%;
 }
 
-
+	.bottom-right-text img {
+		display: none;
+	}
 
 
 

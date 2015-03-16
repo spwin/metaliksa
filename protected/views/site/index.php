@@ -69,7 +69,8 @@ $this->pageTitle=Yii::app()->name;
 	
 <!-- Content 1 -->
   <div class="item" id="content_1">
-		
+		<div class="mob-head">
+		</div>
 		<div class="left_menu blur">
 			<div class="left_menu_wrap">
 				<div class="menu-lang">
@@ -115,25 +116,29 @@ $this->pageTitle=Yii::app()->name;
 		</div>
 		<div class="icon-container">
 			<div class="icon-image-text">
-				<img class="img-responsive-01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png"  onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png';" alt="">
+				<img id="first-icon" class="img-responsive-01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png"  onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png';" alt="">
 				<div class="icon-texts1 absolute"><span class="icon-number">01.</span><span class="icon-text icon-text-position1 bold">Įdėjų generavimas,<br>eskizavimas</span></div>
 			</div>
 			<div class="icon-image-text">
-				<img class="img-responsive-02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon.png';"alt="">
+				<img id="second-icon" class="img-responsive-02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon.png';"alt="">
 				<div class="icon-texts2 absolute"><span class="icon-number">02.</span><span class="icon-text icon-text-position2 bold">3D CAD modeliavimas</span></div>
 			</div>
 			<div class="icon-image-text">
-				<img class="img-responsive-03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon.png';"alt="">
+				<img id="third-icon" class="img-responsive-03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon.png';"alt="">
 				<div class="icon-texts3 absolute"><span class="icon-number">03.</span><span class="icon-text icon-text-position3 bold">2D brėžinių rengimas</span></div>
 			</div>
 			<div class="icon-image-text">
-				<img class="img-responsive-04" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon.png';"alt="">
+				<img id="fourth-icon" class="img-responsive-04" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon.png';"alt="">
 				<div class="icon-texts4 absolute"><span class="icon-number">04.</span><span class="icon-text icon-text-position4 bold">Gamyba</span></div>
 			</div>
 		</div>
+		<div class="bottom-right-text-mob">
 		<div class="bottom-right-text">
 			<div class="bottom-number">01</div>
+			<!-- <div class="mob-line"></div> -->
+			<img src="images/content_1/mob_line.png" alt="">
 			<div class="bottom-text">Gavę techninę užduotį ir reikalingą informaciją iš kliento – ją analizuojame. Pasitelkdami vizualizaciją, pateikiame tik patį geriausią sprendimą aiškioje ir kiekvienam suprantamoje formoje. Gavę užtikrintą kliento pritarimą ir supratimą, pateikiame pilną techninį pasiūlymą.</div>
+		</div>
 		</div>
 	</div>
 	
@@ -141,7 +146,8 @@ $this->pageTitle=Yii::app()->name;
 	
 <!-- Content 2 -->
   <div class="item" id="content_2">
-  
+	<div class="mob-head">
+	</div>
 	<div class="left_menu blur">
 			<div class="left_menu_wrap">
 				<div class="menu-lang">

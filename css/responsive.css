@@ -82,6 +82,174 @@
 		width: 13%;
 	}
 }
+@media screen and (max-width: 1630px) {
+	.popup-text {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.popup-text {
+		margin-top: 0;
+	}
+	.popup-text h3 {
+		font-size: 15px;
+	}
+	.popup-text p {
+		font-size: 15px;
+	}
+}
+
+/*****************************
+mobile design
+****************************/
+
+/************************
+content_1
+**************************/
+
+
+@media screen and (max-width: 640px) {
+	.left_menu {
+		display: none;
+	}
+	
+	.icon-container {
+		width: 100%;
+		top: 23.8%;
+		height: 33%;
+		margin-left: 8.21%
+	}
+	.icon-image-text {
+		width: 36%;
+		height: auto;
+		display: inline-block;
+	}
+	.icon-image-text img.img-responsive-01 {
+		margin: 0;
+		width: 54%;
+	}
+	#first-icon {}
+	#second-icon {}
+	#third-icon {margin-top: 13%}
+	#fourth-icon {margin-top: 22%}
+	
+	.icon-number {
+		font-size: 8vw;
+	}
+	
+	.icon-text {
+		font-size: 17px;
+	}
+	
+	.icon-texts1 {
+		left: 54%;
+		top: 7%;
+	}
+	
+	.icon-image-text:nth-child(even){
+		margin-left: 12%;
+	}
+	
+	.icon-text-position1 {
+		top: 80%;
+		left: 0%;
+	}
+	.icon-texts2 {
+		top: 61%;
+		left: -2%;
+	}
+	
+	.icon-text-position2 {
+		left: 100%;
+		top: 51%;
+	}
+	
+	.icon-texts3 {
+		top: 71%;
+		left: -7%;
+	}
+	
+	.icon-text-position3 {
+		top: 52%;
+	}
+	
+	.icon-texts4 {
+		top: 75%;
+		right: 55%;
+	}
+	
+	.bottom-right-text-mob {
+		width: 100%;
+		height: 233px;
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.7)
+		
+	}
+	
+	.bottom-right-text {
+		float: none;
+		width: auto;
+		bottom: initial;
+		right: initial;
+	}
+	
+	.bottom-number {
+		margin-top: 52px;
+		font-size: 15vw;
+		margin-left: 15px;
+	}
+	
+	.bottom-right-text img {
+		position: absolute;
+		display: inline-block;
+	}
+	
+	.bottom-text {
+		font-size: inherit;
+		margin-left: 35px;
+		margin-right: 10px;
+	}
+	
+	.mob-head {
+		width: 100%;
+		height: 80px;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		top: 0;
+	}
+}
+
+/*************************
+content_3
+***********************/
+
+@media screen and (max-width: 640px) {
+	.images-wrapper {
+		display: none;
+	}
+	
+	.up-content {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
