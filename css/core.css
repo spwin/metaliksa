@@ -1000,7 +1000,7 @@ background-color: white;
 .popup-image-wrap {
 	width: 50%;
 	float: left;
-	display: inline-block;
+	display: flex;
 }
 
 .popup-image-wrap img {

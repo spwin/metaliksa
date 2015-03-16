@@ -1,6 +1,11 @@
 var CURRENT = 0;
 var global_owl = $("#owl-demo");
 
+$(".disable-owl-swipe").on("touchstart mousedown", function(e) {
+    // Prevent carousel swipe
+    e.stopPropagation();
+});
+
 function jumpTo(number){
     global_owl.trigger('owl.goTo', number);
 }
@@ -149,7 +154,7 @@ $( window ).resize(function() {
 	initialize_positions();
 });
 window.onload = function() {
-	document.getElementById("loader").style.display="none";
+	//document.getElementById("loader").style.display="none";
 	document.getElementById("page").style.opacity="100";
 	initialize_positions();
 };

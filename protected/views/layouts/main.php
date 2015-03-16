@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<div id="loader"><?php echo CHtml::image('images/preloader.gif'); ?></div>
+<!--<div id="loader">--><?php //echo CHtml::image('images/preloader.gif'); ?><!--</div>-->
 <div id="page">
 	<?php echo $content; ?>
 </div>

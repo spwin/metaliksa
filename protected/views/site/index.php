@@ -50,7 +50,7 @@ $this->pageTitle=Yii::app()->name;
 		<div class="footer_0">
 			<div class="wrapper">
 				<div class="partners_title"><?php echo Yii::t('metaliksa','Our partners:'); ?></div>
-				<div id="slick_partners">
+				<div id="slick_partners" class="disable-owl-swipe">
 					<div><?php echo CHtml::image('images/content_0/sponsor_test.png', 'Sponsor'); ?></div>
 					<div><?php echo CHtml::image('images/content_0/sponsor_test.png', 'Sponsor'); ?></div>
 					<div><?php echo CHtml::image('images/content_0/sponsor_test.png', 'Sponsor'); ?></div>
@@ -412,7 +412,7 @@ $this->pageTitle=Yii::app()->name;
 		<div class="map-form">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
 			<div class="map">
-				<div id="map-canvas"></div>
+				<div id="map-canvas" class="disable-owl-swipe"></div>
 				<div class="map-info">
 					<h1>UAB "Metaliksa"</h1>
 					<p>Savanorių pr. 219, Vilnius, Lietuva</p>
@@ -440,10 +440,6 @@ $this->pageTitle=Yii::app()->name;
 		
 		</div>
 </div>
-<script>
-
-</script>
-
 </div>
 
 
