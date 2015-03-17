@@ -103,7 +103,7 @@ $this->pageTitle=Yii::app()->name;
 					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
 					<h1 onclick="jumpTo(1);" class="selected">Darbo metodika</h1>
 					<p>Išsiskiriame kūrybiškumu ir lankstumu. Pateikiame patikimus, inovatyvius, bei kokybiškus techninius sprendimus.</p>
-					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
+					<h1 onclick="jumpTo(2);">Veiklos sritys</h1>
 					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
 					<h1 onclick="jumpTo(4);">Kontaktai</h1>
 				</div>
@@ -117,19 +117,20 @@ $this->pageTitle=Yii::app()->name;
 		<div class="icon-container">
 			<div class="icon-image-text">
 				<img id="first-icon" class="img-responsive-01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png"  onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png';" alt="">
-				<div class="icon-texts1 absolute"><span class="icon-number">01.</span><span class="icon-text icon-text-position1 bold">Įdėjų generavimas,<br>eskizavimas</span></div>
+			<!--	<div class="icon-texts1 absolute"><span class="icon-number">01.</span><span class="icon-text icon-text-position1 bold">Įdėjų generavimas,<br>eskizavimas</span></div> -->
+			<div class="icon-texts1 absolute"><img class="icon-text-position1" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01.png" alt=""></div> 
 			</div>
 			<div class="icon-image-text">
 				<img id="second-icon" class="img-responsive-02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02-icon.png';"alt="">
-				<div class="icon-texts2 absolute"><span class="icon-number">02.</span><span class="icon-text icon-text-position2 bold">3D CAD modeliavimas</span></div>
+				<div class="icon-texts2 absolute"><img class="icon-text-position2" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/02.png" alt=""></div> 
 			</div>
 			<div class="icon-image-text">
 				<img id="third-icon" class="img-responsive-03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03-icon.png';"alt="">
-				<div class="icon-texts3 absolute"><span class="icon-number">03.</span><span class="icon-text icon-text-position3 bold">2D brėžinių rengimas</span></div>
+				<div class="icon-texts3 absolute"><img class="icon-text-position3" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/03.png" alt=""></div> 
 			</div>
 			<div class="icon-image-text">
 				<img id="fourth-icon" class="img-responsive-04" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04-icon.png';"alt="">
-				<div class="icon-texts4 absolute"><span class="icon-number">04.</span><span class="icon-text icon-text-position4 bold">Gamyba</span></div>
+				<div class="icon-texts4 absolute"><img class="icon-text-position4" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/04.png" alt=""></div> 
 			</div>
 		</div>
 		<div class="bottom-right-text-mob">
@@ -160,7 +161,7 @@ $this->pageTitle=Yii::app()->name;
 			</div>
 			<div class="menu-line"></div>
 			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/call-icon-dark.png" alt="">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/call-icon.png" alt="">
 				<ul class="menu-list">
 					<li>Projektų vadovas:</li>
 					<li class="bold">+370 658 55696</li>
@@ -168,7 +169,7 @@ $this->pageTitle=Yii::app()->name;
 			</div>
 			<div class="menu-line"></div>
 			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/skype-icon-dark.png" alt="">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/skype-icon.png" alt="">
 				<ul class="menu-list">
 					<li>Skype status:</li>
 					<li class="bold">Online</li>
@@ -179,7 +180,7 @@ $this->pageTitle=Yii::app()->name;
 				<div class="left_menu_choice">
 					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
 					<h1 onclick="jumpTo(1);">Darbo metodika</h1>
-					<h1 onclick="jumpTo(2);" class="selected">Darbo sritys</h1>
+					<h1 onclick="jumpTo(2);" class="selected">Veiklos sritys</h1>
 					<p>Vertiname kokybę, todėl specializuojamės tik į tai ką sugebame atlikti geriausiai. Esame inovatyvūs, todėl neįmanomų užduočių mums nėra.</p>
 					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
 					<h1 onclick="jumpTo(4);">Kontaktai</h1>
@@ -216,6 +217,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-2.jpg">
 			</div>
 			<div class="popup-text-wrap">
+				<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -228,6 +230,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-2.jpg">
 			</div>
 			<div class="popup-text-wrap">
+			<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -240,6 +243,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-3.jpg">
 			</div>
 			<div class="popup-text-wrap">
+			<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -252,6 +256,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-4.jpg">
 			</div>
 			<div class="popup-text-wrap">
+			<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -264,6 +269,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-5.jpg">
 			</div>
 			<div class="popup-text-wrap">
+			<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -276,6 +282,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-6.jpg">
 			</div>
 			<div class="popup-text-wrap">
+				<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -288,6 +295,7 @@ $this->pageTitle=Yii::app()->name;
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/popup-img-7.jpg">
 			</div>
 			<div class="popup-text-wrap">
+			<div class="popup-x"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/x_popup.png"></div>
 				<div class="popup-text">
 					<h3 class="bold">Nestandartinių pramonės įrengimų projektavimas</h3>
 					<p>Gamybinės, pramoninės, nestandartinės įrangos projektavimas ir gamyba. Kliento produkto gamybos technologijos rengimas ir ne tik.</p>
@@ -332,7 +340,7 @@ $this->pageTitle=Yii::app()->name;
 				<div class="left_menu_choice">
 					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
 					<h1 onclick="jumpTo(1);">Darbo metodika</h1>
-					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
+					<h1 onclick="jumpTo(2);">Veiklos sritys</h1>
 					<h1 onclick="jumpTo(3);" class="selected">Mūsų darbai</h1>
 					<p>Didžiuojamės visais savo darbais. Čia rasite mūsų darbus, kuriais galime pasidalinti su Jumis (konfidencialumas viena iš didžiausių mūsų vertybių).</p>
 					<h1 onclick="jumpTo(4);">Kontaktai</h1>
@@ -392,7 +400,7 @@ $this->pageTitle=Yii::app()->name;
 				<div class="left_menu_choice">
 					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
 					<h1 onclick="jumpTo(1);">Darbo metodika</h1>
-					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
+					<h1 onclick="jumpTo(2);">Veiklos sritys</h1>
 					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
 					<h1 onclick="jumpTo(4);" class="selected">Kontaktai</h1>
 				</div>
