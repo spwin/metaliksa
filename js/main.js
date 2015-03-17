@@ -276,3 +276,7 @@ $( ".image7" ).click(function() {
 $( ".fadeMe" ).click(function() {
   $( ".fadeMe, .content-2-popup" ).hide();
 });
+
+$( ".popup-x" ).click(function() {
+  $( ".fadeMe, .content-2-popup" ).hide();
+});
