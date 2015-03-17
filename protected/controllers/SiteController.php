@@ -27,9 +27,30 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		$model = new ContactForm();
+        if($_POST){
+            $model->attributes = $_POST['ContactForm'];
+            if($model->validate()){
+                $header = '';
+                $header .= "From: =?UTF-8?Q?Kontaktų užklausa?= <".$model->email.">\n";
+                $header .= "Message-ID: <".md5(time())."@metaliksa.com>\n";
+                $header .= "X-Priority: 3\n";
+                $header .= "X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)\n";
+                $header .= "MIME-Version: 1.0\n";
+                $header .= "Content-Transfer-Encoding: 8bit\n";
+                $header .= "Content-Type: text/html; charset=UTF-8\n";
+
+                $message = $model->body;
+
+                $subject = "=?utf-8?B?" . base64_encode($model->subject) . "?=";
+                mail('spwinwk@gmail.com',$subject,$message,$header);
+            } else {
+                echo "<pre>";
+                print_r($model->getErrors());
+                echo "</pre>";
+            }
+        }
+		$this->render('index', array('model'=>$model));
 	}
 
 	/**

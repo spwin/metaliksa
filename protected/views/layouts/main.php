@@ -54,7 +54,7 @@
                     <h1 onclick="jumpTo(0);" class="menu_item selected">Pagrindinis</h1>
                     <h1 onclick="jumpTo(1);" class="menu_item">Darbo metodika</h1>
                     <p class="menu_item_description">Išsiskiriame kūrybiškumu ir lankstumu. Pateikiame patikimus, inovatyvius, bei kokybiškus techninius sprendimus.</p>
-                    <h1 onclick="jumpTo(2);" class="menu_item">Darbo sritys</h1>
+                    <h1 onclick="jumpTo(2);" class="menu_item">Veiklos sritys</h1>
                     <p class="menu_item_description">Vertiname kokybę, todėl specializuojamės tik į tai ką sugebame atlikti geriausiai. Esame inovatyvūs, todėl neįmanomų užduočių mums nėra.</p>
                     <h1 onclick="jumpTo(3);" class="menu_item">Mūsų darbai</h1>
                     <p class="menu_item_description">Didžiuojamės visais savo darbais. Čia rasite mūsų darbus, kuriais galime pasidalinti su Jumis (konfidencialumas viena iš didžiausių mūsų vertybių).</p>

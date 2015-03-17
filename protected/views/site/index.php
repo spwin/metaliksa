@@ -262,14 +262,21 @@ $this->pageTitle=Yii::app()->name;
 			<div class="form-wrap">
 				<div class="form">
 					<h1>Parašykite mums</h1>
-					<form method="post">
-						<input type="text" placeholder="Vardas">
-						<input type="mail" placeholder="El. paštas">
-						<input type="text" placeholder="Tema" class="mb20">
-						<label for="textarea">Žinutė</label>
-						<textarea id="textarea"></textarea>
-						<a href="#"><div class="send-button"><img src="images/content_4/send-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_4/send-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_4/send-icon.png';"><span>Siųsti žinutę</span></div></a>
-					</form>
+                    <?php $form=$this->beginWidget('CActiveForm'); ?>
+                        <?php echo $form->textField($model,'name',array('placeholder'=>'Vardas')) ?>
+                        <?php echo $form->textField($model,'email',array('placeholder'=>'El. paštas')) ?>
+                        <?php echo $form->textField($model,'subject',array('placeholder'=>'Tema', 'class'=>'mb20')) ?>
+                        <?php echo $form->label($model,'body'); ?>
+                        <?php echo $form->textArea($model, 'body'); ?>
+                        <?php if(CCaptcha::checkRequirements()): ?>
+                                <?php echo $form->labelEx($model,'verifyCode'); ?>
+                                <?php $this->widget('CCaptcha',array('buttonLabel'=>'text','buttonType'=>'button','buttonOptions'=>array('class'=>'contacts_button', 'type'=>'image','src'=>'images/refresh.png')));?>
+                                <?php echo $form->textField($model,'verifyCode'); ?>
+                                <?php echo $form->error($model,'verifyCode'); ?>
+                        <?php endif; ?>
+                        <?php echo CHtml::submitButton('Send'); ?>
+                        <a href="#"><div class="send-button"><img src="images/content_4/send-icon.png" onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_4/send-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_4/send-icon.png';"><span>Siųsti žinutę</span></div></a>
+                    <?php $this->endWidget(); ?>
 				</div>
 			</div>
 		

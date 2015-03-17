@@ -186,7 +186,6 @@ $(document).ready(function() {
 			]
 		});
     jQuery('.preloader').css('background-image','url(images/content_0/main2image.jpg)');
-    jQuery('.preloader').css('background-image','url(images/content_0/tekst.png)');
 });
 
 $( window ).resize(function() {
@@ -199,7 +198,7 @@ window.onload = function() {
 	initialize_positions();
     setTimeout(function() {
         jQuery('#content_0').css('background-image','url(images/content_0/main2image.jpg)');
-        jQuery('.main_title_text').html('<img src="images/content_0/tekst.png" alt="Griauname atgyvenusius ir nusistovejusius principus">');
+        //jQuery('.main_title_text').html('<img src="images/content_0/tekst.png" alt="Griauname atgyvenusius ir nusistovejusius principus">');
     }, 6000);
 };
 
