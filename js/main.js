@@ -10,18 +10,56 @@ function jumpTo(number){
     global_owl.trigger('owl.goTo', number);
 }
 
+function initialize_menu_items(number){
+    var current_menu_item = jQuery( ".menu_item:nth-child("+number+")");
+    jQuery('.menu_item').removeClass('selected');
+    current_menu_item.addClass('selected');
+    jQuery('.menu_item_description').hide();
+    current_menu_item.next().slideDown();
+}
+
 function afterAction(){
 	CURRENT = this.owl.currentItem;
 	if(this.owl.currentItem == 0){
-		
+        if(jQuery('.fixed_element').is(":visible")) {
+            jQuery('.fixed_element').fadeOut();
+        } else {
+            jQuery('.fixed_element').hide();
+        }
 	} else if(this.owl.currentItem == 1){
-	
+        if(jQuery('.fixed_element').is(":visible")) {
+            jQuery('.fixed_element').show();
+        } else {
+            jQuery('.fixed_element').fadeIn();
+        }
+        initialize_menu_items(2);
 	} else if(this.owl.currentItem == 2){
-
+        if(jQuery('.fixed_element').is(":visible")) {
+            jQuery('.fixed_element').show();
+        } else {
+            jQuery('.fixed_element').fadeIn();
+        }
+        initialize_menu_items(4);
 	} else if(this.owl.currentItem == 3){
-
+        if(jQuery('.fixed_element').is(":visible")) {
+            jQuery('.fixed_element').show();
+        } else {
+            jQuery('.fixed_element').fadeIn();
+        }
+        initialize_menu_items(6);
     } else if(this.owl.currentItem == 4){
-
+        if(jQuery('.fixed_element').is(":visible")) {
+            jQuery('.fixed_element').show();
+        } else {
+            jQuery('.fixed_element').fadeIn();
+        }
+        initialize_menu_items(8);
+    } else if(this.owl.currentItem == 5){
+        if(jQuery('.fixed_element').is(":visible")) {
+            jQuery('.fixed_element').fadeOut();
+        } else {
+            jQuery('.fixed_element').hide();
+        }
     }
 	initialize_positions();
 }
@@ -147,6 +185,8 @@ $(document).ready(function() {
 				}
 			]
 		});
+    jQuery('.preloader').css('background-image','url(images/content_0/main2image.jpg)');
+    jQuery('.preloader').css('background-image','url(images/content_0/tekst.png)');
 });
 
 $( window ).resize(function() {
@@ -157,6 +197,10 @@ window.onload = function() {
 	//document.getElementById("loader").style.display="none";
 	document.getElementById("page").style.opacity="100";
 	initialize_positions();
+    setTimeout(function() {
+        jQuery('#content_0').css('background-image','url(images/content_0/main2image.jpg)');
+        jQuery('.main_title_text').html('<img src="images/content_0/tekst.png" alt="Griauname atgyvenusius ir nusistovejusius principus">');
+    }, 6000);
 };
 
 //google maps in contacts
@@ -232,22 +276,3 @@ $( ".image7" ).click(function() {
 $( ".fadeMe" ).click(function() {
   $( ".fadeMe, .content-2-popup" ).hide();
 });
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-

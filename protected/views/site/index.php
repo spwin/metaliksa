@@ -71,49 +71,6 @@ $this->pageTitle=Yii::app()->name;
   <div class="item" id="content_1">
 		<div class="mob-head">
 		</div>
-		<div class="left_menu blur">
-			<div class="left_menu_wrap">
-				<div class="menu-lang">
-					<ul>
-						<li>LT</li>
-						<li>EN</li>
-						<li>RU</li>
-					</ul>
-				</div>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/call-icon.png" alt="">
-				<ul class="menu-list">
-					<li>Projektų vadovas:</li>
-					<li class="bold">+370 658 55696</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/skype-icon.png" alt="">
-				<ul class="menu-list">
-					<li>Skype status:</li>
-					<li class="bold">Online</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<div class="left_menu_choice">
-					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
-					<h1 onclick="jumpTo(1);" class="selected">Darbo metodika</h1>
-					<p>Išsiskiriame kūrybiškumu ir lankstumu. Pateikiame patikimus, inovatyvius, bei kokybiškus techninius sprendimus.</p>
-					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
-					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
-					<h1 onclick="jumpTo(4);">Kontaktai</h1>
-				</div>
-			</div>
-			<div class="left_menu_wrap">
-			<div class="menu-bottom">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/cc-metaliksa.png" alt="">
-			</div>
-			</div>
-		</div>
 		<div class="icon-container">
 			<div class="icon-image-text">
 				<img id="first-icon" class="img-responsive-01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png"  onmouseover="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon-hover.png';" onmouseout="this.src='<?php echo Yii::app()->request->baseUrl; ?>/images/content_1/01-icon.png';" alt="">
@@ -148,49 +105,6 @@ $this->pageTitle=Yii::app()->name;
   <div class="item" id="content_2">
 	<div class="mob-head">
 	</div>
-	<div class="left_menu blur">
-			<div class="left_menu_wrap">
-				<div class="menu-lang">
-					<ul>
-						<li>LT</li>
-						<li>EN</li>
-						<li>RU</li>
-					</ul>
-				</div>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/call-icon-dark.png" alt="">
-				<ul class="menu-list">
-					<li>Projektų vadovas:</li>
-					<li class="bold">+370 658 55696</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/skype-icon-dark.png" alt="">
-				<ul class="menu-list">
-					<li>Skype status:</li>
-					<li class="bold">Online</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<div class="left_menu_choice">
-					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
-					<h1 onclick="jumpTo(1);">Darbo metodika</h1>
-					<h1 onclick="jumpTo(2);" class="selected">Darbo sritys</h1>
-					<p>Vertiname kokybę, todėl specializuojamės tik į tai ką sugebame atlikti geriausiai. Esame inovatyvūs, todėl neįmanomų užduočių mums nėra.</p>
-					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
-					<h1 onclick="jumpTo(4);">Kontaktai</h1>
-				</div>
-			</div>
-			<div class="left_menu_wrap">
-			<div class="menu-bottom">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/cc-metaliksa.png" alt="">
-			</div>
-			</div>
-		</div>
 		<div class="up-content">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/content_2/JAH_Pan.png">
 		</div>
@@ -301,49 +215,6 @@ $this->pageTitle=Yii::app()->name;
 
 <!-- Content 3 -->
 <div class="item" id="content_3">
-    <div class="left_menu blur">
-			<div class="left_menu_wrap">
-				<div class="menu-lang">
-					<ul>
-						<li>LT</li>
-						<li>EN</li>
-						<li>RU</li>
-					</ul>
-				</div>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/call-icon.png" alt="">
-				<ul class="menu-list">
-					<li>Projektų vadovas:</li>
-					<li class="bold">+370 658 55696</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/skype-icon.png" alt="">
-				<ul class="menu-list">
-					<li>Skype status:</li>
-					<li class="bold">Online</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<div class="left_menu_choice">
-					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
-					<h1 onclick="jumpTo(1);">Darbo metodika</h1>
-					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
-					<h1 onclick="jumpTo(3);" class="selected">Mūsų darbai</h1>
-					<p>Didžiuojamės visais savo darbais. Čia rasite mūsų darbus, kuriais galime pasidalinti su Jumis (konfidencialumas viena iš didžiausių mūsų vertybių).</p>
-					<h1 onclick="jumpTo(4);">Kontaktai</h1>
-				</div>
-			</div>
-			<div class="left_menu_wrap">
-			<div class="menu-bottom">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/cc-metaliksa.png" alt="">
-			</div>
-			</div>
-		</div>
 	Darbai
 
 	
@@ -361,48 +232,6 @@ $this->pageTitle=Yii::app()->name;
 
 <!-- Content 4 -->
 <div class="item" id="content_4">
-<div class="left_menu blur" id="kontaktai">
-			<div class="left_menu_wrap">
-				<div class="menu-lang">
-					<ul>
-						<li>LT</li>
-						<li>EN</li>
-						<li>RU</li>
-					</ul>
-				</div>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/call-icon.png" alt="">
-				<ul class="menu-list">
-					<li>Projektų vadovas:</li>
-					<li class="bold">+370 658 55696</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/skype-icon.png" alt="">
-				<ul class="menu-list">
-					<li>Skype status:</li>
-					<li class="bold">Online</li>
-				</ul>
-			</div>
-			<div class="menu-line"></div>
-			<div class="left_menu_wrap">
-				<div class="left_menu_choice">
-					<h1 onclick="jumpTo(0);">Pagrindinis</h1>
-					<h1 onclick="jumpTo(1);">Darbo metodika</h1>
-					<h1 onclick="jumpTo(2);">Darbo sritys</h1>
-					<h1 onclick="jumpTo(3);">Mūsų darbai</h1>
-					<h1 onclick="jumpTo(4);" class="selected">Kontaktai</h1>
-				</div>
-			</div>
-			<div class="left_menu_wrap">
-			<div class="menu-bottom">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_img/cc-metaliksa.png" alt="">
-			</div>
-			</div>
-		</div>
 		<div class="content-wrap">
 		<div class="contacts-info">
 			<div class="contact"><span class="bold">Direktorius</span><img src="images/content_4/dovydass.png"><span class="bold block">Karolis Senkus</span><span class="block">Mob. Tel.: +370 636 93884</span><span class="block">El. Paštas: karolis@metaliksa.lt</span></div>
@@ -425,7 +254,7 @@ $this->pageTitle=Yii::app()->name;
 			<div class="form-wrap">
 				<div class="form">
 					<h1>Parašykite mums</h1>
-					<form>
+					<form method="post">
 						<input type="text" placeholder="Vardas">
 						<input type="mail" placeholder="El. paštas">
 						<input type="text" placeholder="Tema" class="mb20">
@@ -440,6 +269,8 @@ $this->pageTitle=Yii::app()->name;
 		
 		</div>
 </div>
+
+    <div class="item" id="content_5"></div>
 </div>
 
 
